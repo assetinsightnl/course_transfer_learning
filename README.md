@@ -11,8 +11,13 @@ Blader even rustig door alle plaatjes heen om een gevoel te krijgen van wat voor
 
 Open het bestand 'retrain.py' in PyCharm en run de code. Het kan zijn dat er veel rode meldingen in het outputscherm ontstaan, maar zolang het lijkt alsof de code nog aan het draaien is, is dat geen probleem. Als alles goed heeft gedraaid, eindigt het programma met de output 'done !!' en 'Process finished with exit code 0' Het laatste stuk van het inception netwerk is nu getraind met behulp van de plaatjes van de verkeersborden.
 
-Open het bestand 'test.py' en run de code. De plaatjes die in de map 'test_images' staan worden nu stuk voor stuk door het neurale netwerk geclassificeerd. Per plaatje krijg je het plaatje te zien, met in blauw de voorspelde klasse. Daarnaast staat in de output in PyCharm de kans dat het plaatje bij elk van de verkeersbordklassen hoort.
+Open het bestand 'test.py' en run de code. De plaatjes die in de map 'test_images' staan worden nu stuk voor stuk door het neurale netwerk geclassificeerd. Per plaatje krijg je het plaatje te zien, met in blauw de voorspelde klasse. Daarnaast staat in de output in PyCharm de kans dat het plaatje bij elk van de verkeersbordklassen hoort, bijvoorbeeld:
 
+stop_38.jpg
+---------------------------------------
+the object appears to be a stop, 99.70% confidence
+stop (0.99704)
+50 (0.00296)
 
 ## Onderzoeksvragen
 - Voeg een tweede en een derde soort verkeersbord toe: zoek genoeg plaatjes op Google van de gewenste klasse en zorg ervoor dat de plaatjes vrij klein zijn (bijvoorbeeld 100 x 100 of 300 x 300 pixels). Geef de plaatjes (minstens een stuk of 30) de juiste namen en plaats ze in de mapstructuur. Kies een aantal van de plaatjes en verplaats (let op: verplaats ze, kopieer ze niet!) naar de map 'test_images'. Run nu 'retrain.py' en 'test.py' opnieuw en bekijk of het netwerk alle verkeersborden juist classificeerd.
