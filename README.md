@@ -14,9 +14,11 @@ Open het bestand 'retrain.py' in PyCharm en run de code. Het kan zijn dat er vee
 Open het bestand 'test.py' en run de code. De plaatjes die in de map 'test_images' staan worden nu stuk voor stuk door het neurale netwerk geclassificeerd. Per plaatje krijg je het plaatje te zien, met in blauw de voorspelde klasse. Daarnaast staat in de output in PyCharm de kans dat het plaatje bij elk van de verkeersbordklassen hoort, bijvoorbeeld:
 
 stop_38.jpg
----------------------------------------
+
 the object appears to be a stop, 99.70% confidence
+
 stop (0.99704)
+
 50 (0.00296)
 
 ## Onderzoeksvragen
